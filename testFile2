@@ -1,0 +1,4 @@
+sc.range(10,50)
+.map(i=>(i,i*10,i+i))
+.map(i=>i._1+i._2+i._3)
+.collect()

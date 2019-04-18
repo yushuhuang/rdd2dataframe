@@ -1,0 +1,3 @@
+sc.range(10,50)
+.map(i=>{val j=i*i-3;val k=j*i;(j,k)})
+.collect()
